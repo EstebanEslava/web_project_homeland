@@ -1,39 +1,40 @@
 .page {
     background: #2A2C2F;
     color: #fff;
-    max-width: 1280px;
+    width: 1280px;
     margin: auto;
     text-rendering: optimizeLegibility;
+    font-family: "inter";
 }
 
 
 .logo__icon {
-    width: 25%;
-    height: auto;
+    width: 254.84px;
+    height: 68.94px;
     margin: 34px 512.6px 91.06px 513px;
 }
 
 .header {
-    width: 80%;
-    margin: 0 148px 92px;
+    width: 984px;
+    height: 304px;
+    margin: 0 148px 64px;
 }
 
 .title {
-    margin: 0 280px 32px;
-    width: 50%;
-    height: auto;
+    margin: 0 132px 32px;
+    width: 720px;
+    height: 200px;
     font-family: Inter;
     font-size: 96px;
     font-weight: 900;
     line-height: 100px;
     text-align: center;
 
-
 }
 
 .subtitle {
-    margin: 0 132px 64px;
-    width: 72%;
+    margin: 0 132px 0px;
+    width: 720px;
     height: 72px;
     font-family: Inter;
     font-size: 30px;
@@ -44,12 +45,13 @@
 }
 
 .image {
-    width: 98%;
-    height: auto;
+    width: 984px;
+    height: 615px;
+    margin: 0 148px 0;
 }
 
 .intro {
-    margin: 0 302px 92px 148px;
+    margin: 92px 302px 92px 148px;
     width: 830px;
     height: 607px;
 
@@ -57,7 +59,7 @@
 
 .title__intro {
     margin: 0 302px 39.98px 0;
-    width: 83%;
+    width: 830px;
     height: 173.92px;
     font-family: Inter;
     font-size: 54px;
@@ -71,7 +73,7 @@
     margin-top: 0;
     margin-right: 92px;
     margin-bottom: 10px;
-    width: 73%;
+    width: 738px;
     height: 135.66px;
     font-family: Inter;
     font-size: 24px;
@@ -85,7 +87,7 @@
     margin-top: 0;
     margin-right: 98px;
     margin-bottom: 31.99px;
-    width: 73%;
+    width: 732;
     height: 33.91px;
     font-family: Inter;
     font-size: 24px;
@@ -96,7 +98,7 @@
 
 .paragraph {
     margin: 0 108px 92px 0;
-    width: 73%;
+    width: 722px;
     height: 181.54px;
     font-family: Inter;
     font-size: 16px;
@@ -108,8 +110,203 @@
 }
 
 .footer {
-    width: 50%;
-    margin: 0 543px 24px;
+    width: 194px;
+    height: 16px;
+    margin: 0 543px 0;
+    padding: 24px;
 }
 
 
+@media screen and (max-width: 768px) {
+    .page{
+        width: 768px;
+        height: 1742px;
+
+    }
+
+    .logo__icon{
+        width: 254px;
+        height: 66px;
+        margin: 30px 257px 90px;
+    }
+    
+    .header{
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+    margin: 0 0 auto;
+    }
+
+    .title {
+        width: 530px;
+        height: 158px;
+        margin: 0 119px 25px;
+        font-family: Inter;
+        font-size: 75px;
+        font-weight: 900;
+        line-height: 79px;
+        text-align: center;
+
+
+    }
+
+    .subtitle{
+        width: 720px;
+        height: 72px;
+        margin: 0 24px 30px;
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: center;
+
+
+    }
+
+    .image{
+        width: 100%;
+        height: auto;
+        
+
+    }
+
+    .intro{
+        width: 720px;
+        height: 573px;
+        margin: 90px 24px 88px;
+
+    }
+
+    .title__intro{
+        width: 707px;
+        height: 147px;
+        margin-right: 13px;
+
+    }
+
+    .text__intro{
+        width: 720px;
+        height: 136px;
+        margin-top: 50px;
+        margin-right: 0;
+
+    }
+
+    .text__intro-author{
+        width: 720px;
+        height: 34px;
+    }
+
+    .paragraph{
+        width: 720px;
+        height: 182px;
+        margin-right: 0;
+        margin-bottom: 0;
+
+    }
+
+    .footer{
+        width: 194px;
+        height: 16px;
+        margin: 0 283px 24px;
+        padding: 0;
+    }
+
+    
+}
+
+@media screen and (max-width: 320px) {
+    .page{
+        width: 320px;
+        height: 1705px;
+    
+    }
+
+    .logo__icon{
+        width: 188px;
+        height: 52px;
+        margin: 20px 66px 50px;
+    }
+    
+    .header{
+        width: 288px;
+        height: 144px;
+        margin: 0 16px 40px;
+        
+        }
+    
+        
+    .title {
+        width: 288px;
+        height: 88px;
+        margin: 0 0 16px;
+        font-size: 40px;
+        line-height: 44px;
+
+
+    }
+
+    .subtitle{
+        width: 288px;
+        height: 40px;
+        margin: 0 0 30px;
+        font-size: 16px;
+        line-height: 20px;
+
+
+    }
+
+    .image{
+        width: 100%;
+        height: auto;
+        
+
+    }
+
+    .intro{
+        width: 288px;
+        height: 1033px;
+        margin: 64px 16px;
+    }
+
+    .title__intro {
+        width: 288px;
+        height: 175px;
+        margin-right: 13px;
+        font-size: 32px;
+        line-height: 35px;
+
+    }
+
+    .text__intro{
+        width: 288px;
+        height: 300px;
+        margin-top: 40px;
+        margin-right: 0;
+        line-height: 30px;
+
+    }
+
+    .text__intro-author{
+        width: 288px;
+        height: 34px;
+    }
+
+    .paragraph{
+        width: 288px;
+        height: 442px;
+        margin-right: 0;
+        margin-bottom: 0;
+
+    }
+
+    .footer{
+        width: 194px;
+        height: 14px;
+        margin: 0 63px 24px;
+        padding: 0;
+    }
+
+    
+
+}
