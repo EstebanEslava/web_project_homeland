@@ -1,24 +1,25 @@
 .logo {
-    width: 254.84px;
-    height: 68.94px;
-    margin: 34px 512.6px 91.06px 513px;
+    max-width: 255px;
+    width: 100%;
+    display: block;
+    margin: auto;
 }
 
 
 @media screen and (max-width: 768px) {
     
-    .lead__logo{
-        width: 254px;
-        height: 66px;
-        margin: 30px 257px 90px;
+    .logo{
+        max-width: 254px;
+        width: 100%;
+
     }
 }
 
 @media screen and (max-width: 320px) {
     
-    .lead__logo{
-        width: 188px;
-        height: 52px;
-        margin: 20px 66px 50px;
+    .logo{
+        max-width: 188px;
+        width: 100%;
+        margin-top: 40px;
     }
 }
