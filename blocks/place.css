@@ -138,12 +138,10 @@
     
     }
 }
-
-@media screen  and (max-width: 320px) {
+@media screen and (max-width: 500px){
     .place{
         max-width: 320px;
-        margin-left: 0;
-        margin-right: 0;
+        margin: auto;
         grid-template-columns: 1fr;
         grid-template-areas: 
         "title"
@@ -154,6 +152,8 @@
         grid-template-rows: auto auto 1fr;
         
     }
+    
+    
     
     .place__title{
         max-width: 288px;
