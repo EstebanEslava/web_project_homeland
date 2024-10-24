@@ -1,5 +1,6 @@
 .place{
-    margin-top: 80px;
+    max-width: 987px;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
@@ -24,9 +25,9 @@
 }
 
 .place__image{
-    width: 460px;
+    max-width: 460px;
+    width: 100%;
     margin-top: 48px;
-    margin-right: 40px;
     margin-bottom: 48px;
     grid-area: image;
     box-shadow: 10px 10px 25px 0px #00000080;
@@ -41,7 +42,8 @@
 
 .place__button-buy{
     background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
-    max-width: 250px;
+    max-width: 289px;
+    margin-bottom: 80px;
     height: 48px;
     font-family: Inter;
     font-size: 18px;
@@ -61,10 +63,11 @@
 }
 
 .place__artists{
+    margin-left: 40px;
     font-family: Inter;
     font-size: 12px;
     font-weight: 400;
-    line-height: 14.52px;
+    line-height: 14px;
     letter-spacing: 0.12em;
     text-align: left;
     grid-area: artists;
@@ -83,6 +86,7 @@
 
 .place__texts-paragraph{
     grid-area: text;
+    margin-left: 40px;
     
 }
 
@@ -91,7 +95,7 @@
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    line-height: 29.34px;
+    line-height: 29px;
     text-align: left;
 
 }
@@ -99,7 +103,7 @@
 @media screen  and (max-width: 768px) {
     .place{
         max-width: 720px;
-        
+        margin: 24px;
     }
     
     .place__title{
@@ -115,14 +119,15 @@
     }
     
     
-    .place__button-buy{
-        max-width: 289px;
     
+    .place__artists{
+        max-width: 352px;
+        margin-left: 28px;
     }
-    
     
     .place__texts-paragraph{
         max-width: 352px;
+        margin-left: 28px;
         
     }
     
@@ -136,6 +141,8 @@
 @media screen  and (max-width: 320px) {
     .place{
         max-width: 320px;
+        margin-left: 0;
+        margin-right: 0;
         grid-template-columns: 1fr;
         grid-template-areas: 
         "title"
@@ -151,6 +158,8 @@
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
+        margin-left: 16px;
+        margin-right: 16px;
     
     }
     
@@ -163,18 +172,28 @@
     
     .place__button-buy{
         max-width: 288px;
+        margin-left: 16px;
+        margin-right: 16px;
     
     }
     
+    .place__artists{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
     
     .place__texts-paragraph{
         max-width: 288px;
+        margin-left: 16px;
+        margin-right: 16px;
         
     }
     
     .place__paragraph{
         font-size: 16px;
         line-height: 26px;
+        margin-left: 16px;
+        margin-right: 16px;
     
     }
 }

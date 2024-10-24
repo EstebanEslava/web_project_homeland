@@ -1,8 +1,7 @@
 .photo__grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 118px;
-    margin-bottom: 92px;
+    margin: 118px 53px 92px 43px;
     gap: 16px 16px;
 }
 
